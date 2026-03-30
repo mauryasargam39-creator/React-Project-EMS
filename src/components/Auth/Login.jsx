@@ -6,14 +6,15 @@ const Login = () => {
       <div className='border-2 rounded-xl border-emerald-600 p-20'>
         <form action="" className='flex flex-col items-center justify-center'>
           <input required className=' outline-none bg-transparent border-2 
-          placeholder:text-gray-400 border-emerald-600 rounded-full py-4 px-3 text-xl' 
-          type="email" placeholder='Enter  your email' />
+            placeholder:text-gray-400 border-emerald-600 rounded-full py-4 px-3 text-xl' 
+            type="email" placeholder='Enter  your email' />
           <input required className=' outline-none bg-transparent border-2 mt-3
-          placeholder:text-gray-400 border-emerald-600 rounded-full py-4 px-3 text-xl'  
-          type="password" placeholder='Enter password'/>
-          <button className=' mt-7 text-white border-none outline-none border-2 hover:bg-emerald-700
-          font-semibold
-          placeholder:text-gray-400 bg-emerald-600 rounded-full py-4 px-8 text-lg' >Log in</button>
+            placeholder:text-gray-400 border-emerald-600 rounded-full py-4 px-3 text-xl'  
+            type="password" placeholder='Enter password'/>
+          <button className=' mt-5 text-white border-none outline-none border-2 hover:bg-emerald-600
+            font-semibold placeholder:text-gray-400 bg-emerald-600 rounded-full py-4 px-8 text-xl' >
+            Log in
+          </button>
         </form>
       </div>
     </div>
